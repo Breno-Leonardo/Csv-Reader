@@ -1,0 +1,20 @@
+{
+  "name": "csvReader",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install": "cd back && npm install && cd .. && cd front && npm install",
+    "i": "cd back && npm install && cd .. && cd front && npm install",
+    "dev": "concurrently \"npm run front\" \"npm run back\"",
+    "back": "cd back && npm run start:dev ",
+    "front": "  cd front && npm run dev",
+    "test": "cd back && npx jest"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

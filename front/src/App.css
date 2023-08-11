@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+#root {
+  background-color: #dee2e6;
+  width: 100%;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.boxUpload {
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41);
+}
+.boxTitles {
+  align-self: flex-start;
+  margin-left: 7.5%;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  background-color: white;
+  width: 90%;
+
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41);
+}
+.boxRecent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41);
+}
+.boxCards {
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  
+}
+.logoBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  height: 12rem;
+  margin-bottom: 2rem;
+}
+
+.emptyInfo {
+  margin: 4rem;
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: gray;
+}
+.iconAdd{
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+.searchDiv {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 425px) {
+  .boxUpload {
+    
+    padding: 1rem;
+  
+  }
+  .boxCards{
+    padding: 0rem;
+  }
+  .boxRecent{
+    padding: 0rem;
+  }
+}

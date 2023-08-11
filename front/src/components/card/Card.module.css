@@ -1,0 +1,111 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 15rem;
+  min-height: 7.5rem;
+  box-shadow: 10px 10px 60px #bebebe, -10px -10px 60px #ffffff;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.pCard {
+  font-size: 1.2em;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 0px 0px 1px #000000;
+ 
+}
+
+.color0 {
+  background-image: linear-gradient(135deg, #b1ea4d 0%, #459522 100%);
+}
+
+.color1 {
+  background-image: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
+}
+
+.color2 {
+  background-image: linear-gradient(135deg, #e3e3e3 0%, #5d6874 100%);
+}
+
+.color3 {
+  background-image: linear-gradient(135deg, #b1ea4d 0%, #459522 100%);
+}
+
+.color4 {
+  background-image: linear-gradient(135deg, #c3ec52 0%, #0ba29d 100%);
+}
+
+.color5 {
+  background-image: linear-gradient(135deg, #0ff0b3 0%, #036ed9 100%);
+}
+
+.color6 {
+  background-image: linear-gradient(135deg, #13f1fc 0%, #0470dc 100%);
+}
+
+.color7 {
+  background-image: linear-gradient(135deg, #c56cd6 0%, #3425af 100%);
+}
+
+.color8 {
+  background-image: linear-gradient(135deg, #ff57b9 0%, #a704fd 100%);
+}
+
+.color9 {
+  background-image: linear-gradient(135deg, #f36265 0%, #961276 100%);
+}
+
+.color10 {
+  background-image: linear-gradient(135deg, #f5515f 0%, #a1051d 100%);
+}
+
+.color11 {
+  background-image: linear-gradient(135deg, #f2d50f 0%, #da0641 100%);
+}
+
+.color12 {
+  background-image: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+}
+
+.color13 {
+  background-image: linear-gradient(135deg, #5b247a 0%, #1bcedf 100%);
+}
+
+.color14 {
+  background-image: linear-gradient(135deg, #184e68 0%, #57ca85 100%);
+}
+
+.color15 {
+  background-image: linear-gradient(135deg, #65799b 0%, #5e2563 100%);
+}
+
+.color16 {
+  background-image: linear-gradient(135deg, #f02fc2 0%, #6094ea 100%);
+}
+
+.color17 {
+  background-image: linear-gradient(135deg, #42e695 0%, #3bb2b8 100%);
+}
+
+.color18 {
+  background-image: linear-gradient(135deg, #7117ea 0%, #ea6060 100%);
+}
+
+.color19 {
+  background-image: linear-gradient(135deg, #622774 0%, #c53364 100%);
+}
+
+.color20 {
+  background-image: linear-gradient(135deg, #17ead9 0%, #6078ea 100%);
+}
+
+.color21 {
+  background-image: linear-gradient(135deg, #f65599 0%, #4d0316 100%);
+}
+
+.color22 {
+  background-image: linear-gradient(135deg, #fcdf8a 0%, #f38381 100%);
+}
